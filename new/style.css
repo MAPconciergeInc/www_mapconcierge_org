@@ -76,13 +76,17 @@ a:hover{text-decoration: none;}
 /* content sizes */
 
 .content-lg{
-	padding:100px 0;
+	padding:5px 0px 50px 0px;
 }
 .content-md{
 	padding:20px 0px 30px 0px;
 }
 .content-sm{
 	padding:5px 0;
+}
+
+.buy-md{
+	padding:0px 0px 20px 0px;
 }
 
 
@@ -278,7 +282,7 @@ a:hover{text-decoration: none;}
 /* Buttons */
 
 .btn{
-	margin: 0 5px 5px 0;
+	margin: 0 0px 0px 0;
 }
 .btn.pull-right{
 	margin: 0 0 5px 5px;
