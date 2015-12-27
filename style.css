@@ -135,6 +135,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .navbar{
 	margin-bottom: 0;
 	z-index:1;
+
 }
 .navbar-brand{
 	height:auto;
@@ -230,13 +231,14 @@ nav .caret{
 
 .hero{
 	padding-top:0;
+
 }
 .hero-nav{
-	position:absolute;
 	margin: 0 auto;
 	top:0;
 	left:0;
 	right:0;
+	padding: 10px 50px;
 }
 .v-center{
 	position: relative;
@@ -261,7 +263,7 @@ nav .caret{
 	background: rgba(0,0,0,.6);
 	position: absolute;
 	left: 50%;
-	bottom: 60px;
+	bottom: 90px;
 	border:0;
 }
 .hero .btn-dwn:hover{
@@ -511,6 +513,11 @@ a[data-lightbox]:hover img{
 	background-color:#ffffff;
 }
 
+/* Bloc image backgrounds */
+
+.bg-camera-overlay{
+	background-image: url("img/index/main_light.jpg");
+}
 
 
 
@@ -593,7 +600,6 @@ a[data-lightbox]:hover img{
         color:rgba(255,255,255,.6);
     }
     .hero{
-        padding:50px 0;
     }
     .hero-nav{
         left:-1px;
