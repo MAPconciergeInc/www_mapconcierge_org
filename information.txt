@@ -1,0 +1,16 @@
+Copperplate
+Copperplate Gothic Bold
+Georgia
+Haettenschweiler
+Impact
+Kefa
+Krungthep
+Nueva Std
+Oriya MN
+Plantagenet Cherokee
+PT Sans Caption
+Silom
+
+
+グレー:#D6D6D6
+グリーン:#9DCD77

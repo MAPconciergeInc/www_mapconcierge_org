@@ -28,6 +28,16 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	 font-family: 'Noto Sans Japanese', serif;
 }
 
+/* Google Fontsのフォントウェイト指定 */
+.noto100 {font-weight:100;}
+.noto200 {font-weight:200;}
+.noto300 {font-weight:300;}
+.noto400 {font-weight:400;}
+.noto500 {font-weight:500;}
+.noto600 {font-weight:600;}
+.noto700 {font-weight:700;}
+.noto800 {font-weight:800;}
+.noto900 {font-weight:900;}
 
 /* Site container width */
 
@@ -674,7 +684,7 @@ a[data-lightbox]:hover img{
 /*-----追加設定-----*/
 h1.main-text{
 	text-shadow: 1px 1px 0px #ffffff;
-	color: #f1c40f;
+	color: #FFEB3B;
 }
 h4.main-text{
 	color: #ffffff
@@ -682,4 +692,8 @@ h4.main-text{
 
 .bgc-footer{
 	background-color: #e67e22;
+}
+
+a.nav{
+	color:#D6D6D6;
 }
