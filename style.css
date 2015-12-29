@@ -310,7 +310,8 @@ nav .caret{
 }
 .btn-d,.btn-d:hover,.btn-d:focus{
 	color:#FFF!important;
-	background:rgba(0,0,0,.3);
+	background:#FFD54F;
+	box-shadow: 2px 2px 7px rgba(0,0,0,.3);
 }
 
 /* Prevent ugly blue glow on chrome and safari */
@@ -714,7 +715,7 @@ a.nav{
 .bgc-navbar{
 	border-radius: 50px 50px 50px 50px;
 	background-color: rgba(214,214,214,.8);
-	box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+	box-shadow: 1px 1px 7px rgba(0,0,0,.3);
 }
 
 .header-char a{
