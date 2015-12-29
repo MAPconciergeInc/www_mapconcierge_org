@@ -670,3 +670,16 @@ a[data-lightbox]:hover img{
         display:none;
     }
 }
+
+/*-----追加設定-----*/
+h1.main-text{
+	text-shadow: 1px 1px 0px #ffffff;
+	color: #f1c40f;
+}
+h4.main-text{
+	color: #ffffff
+}
+
+.bgc-footer{
+	background-color: #e67e22;
+}
