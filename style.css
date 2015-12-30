@@ -721,6 +721,14 @@ a.nav{
 	box-shadow: 1px 1px 7px rgba(0,0,0,.3);
 }
 
+.bgc-vision{
+	background-color: #FFF176;
+}
+
+.bgc-vision2{
+	background-color: #FFFDE7;
+}
+
 .header-char a{
 	color:rgba(255,255,255,1);
 }
