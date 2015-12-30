@@ -12,5 +12,5 @@ PT Sans Caption
 Silom
 
 
-グレー:#D6D6D6
-グリーン:#9DCD77
+グレー:#D6D6D6;
+グリーン:#9DCD77;
