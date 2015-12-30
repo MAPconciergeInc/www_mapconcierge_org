@@ -724,3 +724,84 @@ a.nav{
 .header-char a:hover{
 	color:rgba(241,196,15,1);
 }
+
+/* テーブルのCSS */
+
+table.company {
+/*    width: 800px;*/
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+    font-size: 18px;
+}
+
+table.company th,
+table.company td {
+    padding: 10px;
+		text-align: left;
+
+}
+
+table.company th {
+    background: #9DCD77;
+    vertical-align: middle;
+/*    width: 100px;*/
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+		text-align: left;
+		font-weight:bold;
+}
+
+/*
+table.company th:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color:rgb(217, 82, 81);
+    border-width: 10px;
+    margin-top: -10px;
+}
+*/
+/* firefox */
+@-moz-document url-prefix() {
+    table.company th::after {
+        float: right;
+        padding: 0;
+        left: 30px;
+        top: 10px;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: relative;
+        pointer-events: none;
+        border: 10px solid transparent;
+        border-left: #295890 10px solid;
+        margin-top: -10px;
+    }
+}
+
+table.company td {
+    background: #f8f8f8;
+/*    width: 360px;*/
+    padding-left: 20px;
+}
+
+@media only screen and (max-width:480px){
+    .company { margin: 0 -10px; }
+    .company th,
+    .company td{
+        width: 100%;
+        display: block;
+        border-top: none;
+    }
+    .company tr:first-child th   { border-top: 1px solid #ddd; }
+}
