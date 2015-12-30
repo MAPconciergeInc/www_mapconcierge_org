@@ -248,7 +248,6 @@ nav .caret{
 	top:0;
 	left:0;
 	right:0;
-	padding: 10px 50px;
 }
 .v-center{
 	position: relative;
@@ -273,7 +272,7 @@ nav .caret{
 	background: rgba(0,0,0,.6);
 	position: absolute;
 	left: 50%;
-	bottom: 90px;
+	bottom: 120px;
 	border:0;
 }
 .hero .btn-dwn:hover{
