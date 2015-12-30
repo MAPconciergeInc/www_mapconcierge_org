@@ -728,7 +728,11 @@ a.nav{
 .bgc-vision2{
 	background-color: #FFFDE7;
 }
-
+.bgc-navbar2{
+	background-color:#ffffff;
+	position: fixed;
+	z-index: 2000;
+}
 .header-char a{
 	color:rgba(255,255,255,1);
 }
