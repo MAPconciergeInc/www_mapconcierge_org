@@ -683,11 +683,12 @@ a[data-lightbox]:hover img{
 
 /*-----追加設定-----*/
 h1.main-text{
-	text-shadow: 1px 1px 0px #ffffff;
-	color: #FFEB3B;
+	text-shadow: 3px 3px 5px #000000;
+	color: #FFFFFF;
 }
 h4.main-text{
-	color: #ffffff
+	color: #ffffff;
+	text-shadow: 3px 3px 5px #000000;
 }
 
 .bgc-footer{
